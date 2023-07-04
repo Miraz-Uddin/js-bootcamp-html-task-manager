@@ -150,14 +150,15 @@
                           <th>Actions</th>
                           <th>Assignee</th>
                           <th>Task Title</th>
+                          <th>Progress</th>
                           <th>Deadline</th>
-                          <th>Priority</th>
+                          <th>Status</th>
                           <th>View</th>
                         </tr>
                       </thead>
                       <tbody>
                         <tr class="fw-normal">
-                          <td class="align-middle" style="min-width: 100px">
+                          <td class="align-middle">
                             <button
                               type="button"
                               class="btn btn-link"
@@ -183,12 +184,29 @@
                               >Inform HR About Festival Bonus</span
                             >
                           </td>
+                          <td class="align-middle" style="min-width: 170px">
+                            <div
+                              class="progress"
+                              role="progressbar"
+                              aria-label="Success example"
+                              aria-valuenow="100"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <div
+                                class="progress-bar progress-bar-striped bg-success"
+                                style="width: 100%"
+                              >
+                                100%
+                              </div>
+                            </div>
+                          </td>
                           <td class="align-middle">
                             <span>08:35p.m(05/02/2021)</span>
                           </td>
                           <td class="align-middle">
                             <h6 class="mb-0">
-                              <span class="badge bg-success">Low Priority</span>
+                              <span class="badge bg-success">Completed</span>
                             </h6>
                           </td>
                           <td class="align-middle">
@@ -204,7 +222,7 @@
                           </td>
                         </tr>
                         <tr class="fw-normal">
-                          <td class="align-middle" style="min-width: 100px">
+                          <td class="align-middle">
                             <button
                               type="button"
                               class="btn btn-link"
@@ -230,12 +248,29 @@
                               >Finish the UI Fast !!</span
                             >
                           </td>
+                          <td class="align-middle" style="min-width: 170px">
+                            <div
+                              class="progress"
+                              role="progressbar"
+                              aria-label="Error example"
+                              aria-valuenow="0"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <div
+                                class="progress-bar progress-bar-striped bg-error"
+                                style="width: 0%"
+                              >
+                                0%
+                              </div>
+                            </div>
+                          </td>
                           <td class="align-middle">
                             <span>09:45p.m(21/02/2022)</span>
                           </td>
                           <td class="align-middle">
                             <h6 class="mb-0">
-                              <span class="badge bg-danger">High Priority</span>
+                              <span class="badge bg-danger">Pending</span>
                             </h6>
                           </td>
                           <td class="align-middle">
@@ -251,7 +286,7 @@
                           </td>
                         </tr>
                         <tr class="fw-normal">
-                          <td class="align-middle" style="min-width: 100px">
+                          <td class="align-middle">
                             <button
                               type="button"
                               class="btn btn-link"
@@ -277,60 +312,30 @@
                               >Call Sam For payments</span
                             >
                           </td>
+                          <td class="align-middle" style="min-width: 170px">
+                            <div
+                              class="progress"
+                              role="progressbar"
+                              aria-label="Success example"
+                              aria-valuenow="66"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <div
+                                class="progress-bar progress-bar-striped bg-info"
+                                style="width: 66%"
+                              >
+                                66%
+                              </div>
+                            </div>
+                          </td>
                           <td class="align-middle">
                             <span>12:45a.m(23/06/2023)</span>
                           </td>
                           <td class="align-middle">
                             <h6 class="mb-0">
-                              <span class="badge bg-danger">High Priority</span>
-                            </h6>
-                          </td>
-                          <td class="align-middle">
-                            <button
-                              type="button"
-                              class="btn btn-link"
-                              data-bs-toggle="modal"
-                              data-bs-target="#viewModal"
-                              title="View"
-                            >
-                              <i class="fa fa-eye text-info"></i>
-                            </button>
-                          </td>
-                        </tr>
-                        <tr class="fw-normal">
-                          <td class="align-middle" style="min-width: 100px">
-                            <button
-                              type="button"
-                              class="btn btn-link"
-                              title="Remove"
-                            >
-                              <i class="fa fa-trash text-warning"></i>
-                            </button>
-                            <button
-                              type="button"
-                              class="btn btn-link"
-                              data-bs-toggle="modal"
-                              data-bs-target="#editModal"
-                              title="Edit"
-                            >
-                              <i class="fa fa-pencil text-success"></i>
-                            </button>
-                          </td>
-                          <td class="align-middle">
-                            <span class="task-assignee">Danny McChain</span>
-                          </td>
-                          <td class="align-middle">
-                            <span class="task-title"
-                              >Update Task Report Immediately</span
-                            >
-                          </td>
-                          <td class="align-middle">
-                            <span>09:45p.m(21/02/2022)</span>
-                          </td>
-                          <td class="align-middle">
-                            <h6 class="mb-0">
-                              <span class="badge bg-warning text-dark"
-                                >Medium Priority</span
+                              <span class="badge bg-info text-dark"
+                                >In Progress</span
                               >
                             </h6>
                           </td>
@@ -347,7 +352,7 @@
                           </td>
                         </tr>
                         <tr class="fw-normal">
-                          <td class="align-middle" style="min-width: 100px">
+                          <td class="align-middle">
                             <button
                               type="button"
                               class="btn btn-link"
@@ -373,12 +378,95 @@
                               >Check All Task Properly</span
                             >
                           </td>
+                          <td class="align-middle" style="min-width: 170px">
+                            <div
+                              class="progress"
+                              role="progressbar"
+                              aria-label="Success example"
+                              aria-valuenow="100"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <div
+                                class="progress-bar progress-bar-striped bg-success"
+                                style="width: 100%"
+                              >
+                                100%
+                              </div>
+                            </div>
+                          </td>
                           <td class="align-middle">
                             <span>07:35p.m(12/12/2019)</span>
                           </td>
                           <td class="align-middle">
                             <h6 class="mb-0">
-                              <span class="badge bg-success">Low Priority</span>
+                              <span class="badge bg-success">Completed</span>
+                            </h6>
+                          </td>
+                          <td class="align-middle">
+                            <button
+                              type="button"
+                              class="btn btn-link"
+                              data-bs-toggle="modal"
+                              data-bs-target="#viewModal"
+                              title="View"
+                            >
+                              <i class="fa fa-eye text-info"></i>
+                            </button>
+                          </td>
+                        </tr>
+                        <tr class="fw-normal">
+                          <td class="align-middle">
+                            <button
+                              type="button"
+                              class="btn btn-link"
+                              title="Remove"
+                            >
+                              <i class="fa fa-trash text-warning"></i>
+                            </button>
+                            <button
+                              type="button"
+                              class="btn btn-link"
+                              data-bs-toggle="modal"
+                              data-bs-target="#editModal"
+                              title="Edit"
+                            >
+                              <i class="fa fa-pencil text-success"></i>
+                            </button>
+                          </td>
+                          <td class="align-middle">
+                            <span class="task-assignee">Danny McChain</span>
+                          </td>
+                          <td class="align-middle">
+                            <span class="task-title"
+                              >Update Task Report Immediately</span
+                            >
+                          </td>
+                          <td class="align-middle" style="min-width: 170px">
+                            <div
+                              class="progress"
+                              role="progressbar"
+                              aria-label="Success example"
+                              aria-valuenow="45"
+                              aria-valuemin="0"
+                              aria-valuemax="100"
+                            >
+                              <div
+                                class="progress-bar progress-bar-striped bg-info"
+                                style="width: 45%"
+                              >
+                                45%
+                              </div>
+                            </div>
+                          </td>
+                          <td class="align-middle">
+                            <span>09:45p.m(21/02/2022)</span>
+                          </td>
+                          <td class="align-middle">
+                            <h6 class="mb-0">
+                              <span class="badge bg-info text-dark"
+                                >In Progress</span
+                              >
                             </h6>
                           </td>
                           <td class="align-middle">
@@ -397,7 +485,7 @@
                       <tfoot>
                         <tr>
                           <td colspan="6" class="text-center">
-                            <button class="btn btn-light btn-sm">
+                            <button class="btn btn-custom btn-sm">
                               Load More Tasks
                             </button>
                           </td>

@@ -124,3 +124,35 @@
     margin-right: 5px;
     margin-left: -20px;
 }
+
+.btn-custom {
+    background: #adb5bd;
+    color: #1c1c1c;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-custom:hover {
+    background: #adb5bd;
+    color: #1c1c1c;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+[data-bs-theme=light] .btn-custom {
+    background: #1c1c1c;
+    color: #fff;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+[data-bs-theme=light] .btn-custom:hover {
+    background: #1c1c1c;
+    color: #fff;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
