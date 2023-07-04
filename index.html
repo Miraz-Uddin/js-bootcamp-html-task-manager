@@ -836,7 +836,9 @@
       <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="viewModalLabel">View</h1>
+            <h1 class="modal-title fs-5" id="viewModalLabel">
+              Task Deadline: 09:45p.m(21/02/2022)
+            </h1>
             <button
               type="button"
               class="btn-close"
@@ -844,16 +846,64 @@
               aria-label="Close"
             ></button>
           </div>
-          <div class="modal-body">...</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-bs-dismiss="modal"
-            >
-              Close
-            </button>
-            <button type="button" class="btn btn-primary">Save changes</button>
+          <div class="modal-body">
+            <div class="card">
+              <div class="card-body">
+                <h3>
+                  Title:
+                  <small class="text-body-secondary"
+                    >Check All Task Properly</small
+                  >
+                </h3>
+                <!-- <h5 class="card-title">Title: Check All Task Properly</h5> -->
+                <p class="card-text">
+                  All Pending Tasks Should be Checked fast and Properly. Try to
+                  understand the Solution of Each problem thoroughly.
+                </p>
+                <div class="row">
+                  <div class="col-4">
+                    <h6 class="card-subtitle mb-2 text-body-secondary">
+                      <div>Task Progress:</div>
+                    </h6>
+                  </div>
+                  <div class="col-8">
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Success example"
+                      aria-valuenow="100"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div
+                        class="progress-bar progress-bar-striped bg-success"
+                        style="width: 100%"
+                      >
+                        100%
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <h6 class="card-subtitle my-2 text-body-secondary">
+                  This Task is Assigned to
+                  <span class="text-info">
+                    <strong> Ben Smith </strong>
+                  </span>
+                </h6>
+                <div class="row">
+                  <div class="col-6">
+                    Task Status :
+                    <span class="badge bg-danger">Pending</span>
+                  </div>
+                  <div class="col-6">
+                    <span>
+                      Priority :
+                      <span class="badge bg-success">Low Priority</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
