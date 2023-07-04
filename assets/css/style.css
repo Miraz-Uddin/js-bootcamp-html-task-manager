@@ -73,10 +73,54 @@
     overflow-y: hidden;
 }
 
+.task-assignee {
+    position: relative;
+    font-size: 15px;
+    height: 20px;
+    line-height: 20px;
+    color: #adb5bd;
+    white-space: normal;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow-y: hidden;
+    font-weight: 500;
+    color: #2980b9;
+}
+
 [data-bs-theme=light] .task-title {
     color: #1c1c1c;
 }
 
+[data-bs-theme=light] .task-assignee {
+    color: #2980b9;
+}
+
 .fw-normal .btn-link {
     padding-left: 0 !important;
+}
+
+#addModal .modal-title {
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+
+#editModal .modal-title {
+    margin-bottom: 3px;
+    margin-right: 10px;
+}
+
+#progressInProgress {
+    margin-right: 5px;
+    margin-left: -20px;
+}
+
+#progressPending {
+    margin-right: 5px;
+    margin-left: -20px;
+}
+
+#progressCompleted {
+    margin-right: 5px;
+    margin-left: -20px;
 }

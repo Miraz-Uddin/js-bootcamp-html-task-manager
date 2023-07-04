@@ -12,3 +12,11 @@
   document.getElementById("year").innerHTML = new Date().getFullYear();
   document.getElementById("company_name").innerHTML = "Md. Miraz Uddin";
 })();
+$(document).ready(function () {
+  v = $("#taskProgress").val();
+  $(".percentage").text(v);
+  $("#taskProgress").on("input", function () {
+    v = $("#taskProgress").val();
+    $(".percentage").text(v);
+  });
+});
